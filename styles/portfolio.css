@@ -183,3 +183,28 @@ main {
 .resume-button{
     text-align: center;
 }
+/* Contact Styles */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="email"],[type="text"],textarea{
+    margin-bottom: 20px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 64px;
+}
+.contact-info{
+    margin-bottom: 30px;
+}
+.contact a{
+    text-decoration: none;
+}
